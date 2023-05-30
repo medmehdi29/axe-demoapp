@@ -18,7 +18,7 @@ jobs:
        DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
       
     - name: Build the new release :latest
-      run: docker build -t genki28/sagemformation:v1.0 .
+      run: docker build -t genki28/sagemformation:2.0 .
 
     - name: Push to docker hub :latest
       uses: actions-hub/docker@master
