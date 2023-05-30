@@ -23,5 +23,5 @@ jobs:
     - name: Push to docker hub :latest
       uses: actions-hub/docker@master
       with:
-       args: push docker pull genki28/sagemformation:2.0
+       args: push genki28/sagemformation:2.0
  
